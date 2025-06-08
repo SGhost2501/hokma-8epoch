@@ -1,0 +1,9 @@
+name: hokma-6epoch
+python_version: "3.10"
+gpu: true
+predict: "predict.py:predict"
+requirements:
+  - torch
+  - transformers
+  - peft
+  - accelerate
